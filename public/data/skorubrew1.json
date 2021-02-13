@@ -1,0 +1,18 @@
+{
+    "number": 1,
+    "style": "Pale ale",
+    "brewDate": "2016-02-29",
+    "bottleDate": "2016-02-29",
+    "finalGravity": 1.020,
+    "rating": 4,
+    "status": "Finished",
+    "ingredients":[
+        "80g grain",
+        "540g malt extract",
+        "2x 20g hop pellets packet",
+        "1/2 campden tablet",
+        "15g sodium percarbonate ",
+        "5.5L tap water"
+    ],
+    "notesFile": "skorubrew1.md"
+}
