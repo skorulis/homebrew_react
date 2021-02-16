@@ -1,7 +1,5 @@
 
-
 import { Container} from '@material-ui/core';
-import styled from 'styled-components';
 import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import BeerDetail from '../model/BeerDetail'
@@ -21,14 +19,17 @@ export default class BeerDetailPage extends React.Component<{datafile: string}, 
 
         let name = `Skorubrew #${details.number}`
 
-        return <div>
+        return <Container>
+            <a href="/">
+                <img src="assets/logo.png" width="434" />
+            </a>
             <h1>{name} - {details.style} ({details.status})</h1>
             <p>Brew date - {details.brewDate}</p>
             <p>Bottle date - {details.bottleDate}</p>
             
             {this.reactBody()}
 
-        </div>
+        </Container>
     }
 
     reactBody() {
@@ -43,15 +44,16 @@ export default class BeerDetailPage extends React.Component<{datafile: string}, 
     }
 
     getJSONData = async () => {
-        let filename = `data/${this.props.datafile}.json`
-        let result = await fetch(filename);
+        let filename = `${process.env.PUBLIC_URL}/beers/${this.props.datafile}.json`
+        let options = {headers: {'Accept': 'application/json'}}
+        let result = await fetch(filename, options);
         let json = await result.json();
         let obj: BeerDetail = json;
         this.setState({...this.state, details: obj})
     }
 
     getMDData = async () => {
-        let filename = `data/${this.props.datafile}.md`
+        let filename = `/beers/${this.props.datafile}.md`
         let result = await fetch(filename);
         let text = await result.text()
         this.setState({...this.state, markdown: text})
