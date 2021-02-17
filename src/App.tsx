@@ -15,12 +15,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/:number" exact={true}>
-          <BeerDetailPage datafile="skorubrew1" />
-        </Route>
-        <Route path="/" exact={true}>
-          <BeerListPage />
-        </Route>
+        <Route path="/:number" exact={true} component={BeerDetailPage} />
+        <Route path="/" exact={true} component={BeerListPage} />
       </Switch>
       
     </Router>

@@ -4,9 +4,9 @@ import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import BeerDetail from '../model/BeerDetail'
 
-export default class BeerDetailPage extends React.Component<{datafile: string}, {details?: BeerDetail, markdown?: string}> {
+export default class BeerDetailPage extends React.Component<any, {details?: BeerDetail, markdown?: string}> {
 
-    constructor(props: {datafile: string}) {
+    constructor(props: any) {
         super(props)
         this.state = {}
     }
@@ -43,8 +43,15 @@ export default class BeerDetailPage extends React.Component<{datafile: string}, 
         this.setState({...this.state, details: details})
     }
 
+    id = ():string => {
+        return this.props.match.params.number;
+    }
+
     getJSONData = async () => {
-        let filename = `${process.env.PUBLIC_URL}/beers/${this.props.datafile}.json`
+        console.log(this.props);
+
+        let filename = `${process.env.PUBLIC_URL}/beers/skorubrew${this.id()}.json`
+        console.log(filename);
         let options = {headers: {'Accept': 'application/json'}}
         let result = await fetch(filename, options);
         let json = await result.json();
@@ -53,7 +60,7 @@ export default class BeerDetailPage extends React.Component<{datafile: string}, 
     }
 
     getMDData = async () => {
-        let filename = `/beers/${this.props.datafile}.md`
+        let filename = `/beers/skorubrew${this.id()}.md`
         let result = await fetch(filename);
         let text = await result.text()
         this.setState({...this.state, markdown: text})
