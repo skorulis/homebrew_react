@@ -1,0 +1,15 @@
+{
+  "total-bottles" : "11",
+  "style" : "Amber IPA",
+  "mash-temp" : "68",
+  "alcoholPct" : 4.6,
+  "yeast" : "Mangrove jack 12",
+  "brewStatus" : "Bottled",
+  "finalBrix" : 8.8,
+  "brewDate" : "2021-01-14",
+  "number" : 40,
+  "originalBrix" : 14,
+  "dry-hop-date" : "2021-02-10",
+  "finalGravity" : 1.022,
+  "originalGravity" : 1.056
+}

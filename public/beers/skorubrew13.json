@@ -1,0 +1,14 @@
+{
+  "rating" : 6.5,
+  "style" : "Rice beer",
+  "alcoholPct" : 3.41,
+  "yeastTemp" : 23,
+  "brewStatus" : "Finished",
+  "finalBrix" : 6,
+  "bottleDate" : "2016-11-17",
+  "brewDate" : "2016-10-18",
+  "number" : 13,
+  "originalBrix" : 10,
+  "originalGravity" : 1.04,
+  "finalGravity" : 1.014
+}

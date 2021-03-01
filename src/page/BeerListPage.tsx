@@ -1,5 +1,5 @@
 
-import { Container} from '@material-ui/core';
+import { Container, Paper} from '@material-ui/core';
 import BeerSummary from "../model/BeerSummary";
 import React from 'react';
 import {
@@ -15,10 +15,28 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
 
     render() {
         let items = this.state.beers.map(x => {
+            let brewDateItem = undefined
+            if (x.brewDate) {
+                brewDateItem = <p>Brewed on {x.brewDate}</p>
+            }
+            let bottleDateItem = undefined
+            if (x.bottleDate) {
+                bottleDateItem = <p>Bottled on {x.bottleDate}</p>
+            }
+
+
             return <li key={x.number}>
+                
                 <Link to={`/${x.number}`}>
-                Skorubrew #{x.number}
+                    <Paper elevation={3}>
+                    {brewDateItem}
+                    {bottleDateItem}
+                    Skorubrew #{x.number} {x.style} 
+                    <br/>{x.status}
+                    </Paper>
+                
                 </Link>
+                
             </li>
         })
         return <Container>

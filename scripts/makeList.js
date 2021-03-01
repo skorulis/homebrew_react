@@ -11,7 +11,8 @@ function makeBeerItem(filename) {
         number: data.number,
         brewDate: data.brewDate,
         bottleDate: data.bottleDate,
-        status: data.status
+        status: data.brewStatus,
+        style: data.style
     }
 }
 
@@ -22,6 +23,7 @@ let beerFiles = files.filter(x => x.endsWith(".json"))
 console.log(beerFiles)
 
 let beerList = beerFiles.map(x => makeBeerItem(x) )
+beerList = beerList.sort((x,y) => y.number - x.number)
 
 console.log(beerList)
 

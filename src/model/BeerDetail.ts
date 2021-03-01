@@ -1,3 +1,4 @@
+import {BrewStatus} from "./Common"
 
 export default interface BeerDetail {
     number: number
@@ -6,5 +7,5 @@ export default interface BeerDetail {
     bottleDate: string
     finalGravity: number
     rating?: number
-    status?: string
+    status?: BrewStatus
 }

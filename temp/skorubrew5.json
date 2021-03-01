@@ -1,0 +1,11 @@
+{
+  "number" : 5,
+  "style" : "Belgian pale ale",
+  "bottleDate" : "2016-05-11",
+  "rating" : 6,
+  "brewStatus" : "Finished",
+  "ambient-temp" : "24",
+  "brewDate" : "2016-04-24",
+  "originalGravity" : 1.058,
+  "yeastTemp" : 20
+}

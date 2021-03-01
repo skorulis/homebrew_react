@@ -1,0 +1,15 @@
+{
+  "style" : "Milk stout",
+  "mash-temp" : "68",
+  "alcoholPct" : 6.7,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 11.5,
+  "bottleDate" : "2019-10-01",
+  "brewDate" : "2019-07-28",
+  "number" : 38,
+  "originalBrix" : 19,
+  "caps" : "black with white",
+  "originalGravity" : 1.08,
+  "finalGravity" : 1.028
+}

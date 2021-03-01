@@ -1,0 +1,12 @@
+{
+  "number" : 7,
+  "bottleDate" : "2016-06-05",
+  "rating" : 7.5,
+  "brewStatus" : "Finished",
+  "style" : "Toffee apple ale",
+  "brewDate" : "2016-05-16",
+  "finalGravity" : 1.015,
+  "originalGravity" : 1.065,
+  "alcoholPct" : 6.6,
+  "yeastTemp" : 17
+}

@@ -1,0 +1,16 @@
+{
+  "style" : "Citra pale ale",
+  "mash-temp" : "68",
+  "alcoholPct" : 5.7,
+  "yeast" : "US-05",
+  "finalBrix" : 9.5,
+  "brewStatus" : "Ready",
+  "bottleDate" : "2019-06-04",
+  "brewDate" : "2019-05-04",
+  "number" : 35,
+  "originalBrix" : 16,
+  "caps" : "Gold with white",
+  "originalGravity" : 1.065,
+  "finalGravity" : 1.022,
+  "dry-hop-date" : "2019-06-02"
+}

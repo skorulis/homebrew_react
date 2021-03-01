@@ -1,0 +1,12 @@
+{
+  "rating" : 4.5,
+  "number" : 10,
+  "style" : "Cider",
+  "brewStatus" : "Ready",
+  "originalBrix" : 13,
+  "brewDate" : "2016-06-16",
+  "missing-bottle-photo" : "1",
+  "originalGravity" : 1.053,
+  "missing-glass-photo" : "1",
+  "yeastTemp" : 19
+}

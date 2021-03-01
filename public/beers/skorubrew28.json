@@ -1,0 +1,17 @@
+{
+  "total-bottles" : "12",
+  "mash-temp" : "69",
+  "style" : "Brown IPA",
+  "alcoholPct" : 5.8,
+  "yeast" : "US-05",
+  "yeastTemp" : 17,
+  "brewStatus" : "Finished",
+  "finalBrix" : 9,
+  "bottleDate" : "2018-01-15",
+  "brewDate" : "2017-12-15",
+  "number" : 28,
+  "originalBrix" : 15,
+  "dry-hop-date" : "2018-01-04",
+  "finalGravity" : 1.019,
+  "originalGravity" : 1.061
+}
