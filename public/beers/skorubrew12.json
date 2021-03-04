@@ -1,8 +1,8 @@
 {
-  "bottleDate" : "2016-11-12",
+  "rating" : 0,
   "number" : 12,
   "style" : "Spiced ale",
+  "bottleDate" : "2016-11-12",
   "brewStatus" : "Finished",
-  "missing-glass-photo" : "1",
-  "rating" : 0
+  "missing-glass-photo" : "1"
 }

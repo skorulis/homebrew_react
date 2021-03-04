@@ -10,7 +10,7 @@
   "number" : 37,
   "originalBrix" : 12.8,
   "caps" : "Gold with red",
-  "dry-hop-date" : "2019-07-28",
+  "originalGravity" : 1.051,
   "finalGravity" : 1.009,
-  "originalGravity" : 1.051
+  "dryHopDate" : "2019-07-28"
 }

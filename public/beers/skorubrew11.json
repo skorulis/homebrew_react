@@ -1,8 +1,8 @@
 {
-  "brewStatus" : "Finished",
   "originalBrix" : 12,
-  "number" : 11,
   "style" : "Hop bomb",
+  "brewStatus" : "Finished",
+  "number" : 11,
   "brewDate" : "2016-07-04",
   "originalGravity" : 1.048,
   "yeastTemp" : 23

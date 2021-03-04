@@ -1,7 +1,7 @@
 {
-  "dry-hop-date" : "2016-12-31",
-  "style" : "Saison",
   "rating" : 6,
+  "style" : "Saison",
+  "total-bottles" : "11",
   "alcoholPct" : 6.4,
   "yeast" : "Mangrove jacks M29",
   "yeastTemp" : 18,
@@ -12,6 +12,6 @@
   "number" : 16,
   "originalBrix" : 14.2,
   "originalGravity" : 1.058,
-  "total-bottles" : "11",
-  "finalGravity" : 1.009
+  "finalGravity" : 1.009,
+  "dryHopDate" : "2016-12-31"
 }

@@ -1,5 +1,5 @@
 {
-  "total-bottles" : "11",
+  "finalGravity" : 1.017,
   "style" : "Hop Bomb",
   "mash-temp" : "69",
   "alcoholPct" : 5.4,
@@ -12,6 +12,6 @@
   "number" : 27,
   "originalBrix" : 13.8,
   "originalGravity" : 1.056,
-  "dry-hop-date" : "2018-01-04",
-  "finalGravity" : 1.017
+  "total-bottles" : "11",
+  "dryHopDate" : "2018-01-04"
 }

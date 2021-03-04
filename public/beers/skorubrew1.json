@@ -1,13 +1,13 @@
 {
   "number" : 1,
+  "style" : "Pale ale",
   "brewStatus" : "Finished",
   "rating" : 4,
   "bottleDate" : "2016-02-29",
-  "style" : "Pale ale",
   "ambient-temp" : "28",
-  "missing-bottle-photo" : "1",
-  "finalGravity" : 1.02,
   "brewDate" : "2016-02-14",
+  "finalGravity" : 1.02,
+  "missing-bottle-photo" : "1",
   "yeastTemp" : 27,
   "water-temp" : "25"
 }

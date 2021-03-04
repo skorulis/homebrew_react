@@ -1,17 +1,17 @@
 {
-  "finalGravity" : 1.027,
-  "mash-temp" : "68",
+  "dryHopDate" : "2019-11-11",
   "style" : "Mid rye ale",
+  "mash-temp" : "68",
   "alcoholPct" : 2,
   "yeast" : "US-05",
-  "brewStatus" : "Bottled",
   "finalBrix" : 8,
+  "brewStatus" : "Bottled",
   "bottleDate" : "2019-11-14",
   "brewDate" : "2019-10-27",
   "number" : 39,
   "originalBrix" : 10,
   "caps" : "green",
-  "dry-hop-date" : "2019-11-11",
+  "originalGravity" : 1.04,
   "total-bottles" : "11",
-  "originalGravity" : 1.04
+  "finalGravity" : 1.027
 }

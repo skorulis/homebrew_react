@@ -1,7 +1,5 @@
 import  Foundation
 
-print("Hello, world!")
-
 let example = """
 ---
 layout: brew
@@ -23,6 +21,7 @@ yeast-temp : 30
 yeast: Mangrove jacks M27
 bottles: 12
 rating: 4
+dry-hop-date: 2019-07-28
 ---
 
 Another beer to brew in warmer temperatures. Going to try for a chocolate belgian stout based off of my old milk chocolate stout.
@@ -127,6 +126,7 @@ private func mapKey(_ key: String) -> String? {
     case "final-brix": return "finalBrix"
     case "final-gravity": return "finalGravity"
     case "bottle-date": return "bottleDate"
+    case "dry-hop-date": return "dryHopDate"
     default:
         return key
     }
@@ -149,7 +149,10 @@ let output = details(text: example)
 
 let fileManager = FileManager.default
 
+print("Working DIR: \(fileManager.currentDirectoryPath)")
+
 let enumerator = fileManager.enumerator(atPath: ".")!
+
 
 for element in enumerator {
     let path = element as! String
@@ -163,7 +166,7 @@ for element in enumerator {
     let encoder = JSONEncoder()
     encoder.outputFormatting = .prettyPrinted
     let json = try! encoder.encode(deets)
-    let filename = "../temp/skorubrew\(deets["number"]!).json"
+    let filename = "../public/beers/skorubrew\(deets["number"]!).json"
     let url = URL(fileURLWithPath: filename)
     try! json.write(to: url)
 }

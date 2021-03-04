@@ -1,8 +1,14 @@
 
-import { Container} from '@material-ui/core';
+import { Container, TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody} from '@material-ui/core';
 import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import BeerDetail from '../model/BeerDetail'
+import { BrewStatus } from '../model/Common';
+
+interface DetailItem {
+    name: string
+    value: string
+}
 
 export default class BeerDetailPage extends React.Component<any, {details?: BeerDetail, markdown?: string}> {
 
@@ -19,17 +25,87 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
 
         let name = `Skorubrew #${details.number}`
 
+        let statusStyle = {color:this.statusColor(details.brewStatus), fontSize: "150%"}
+
         return <Container>
             <a href="/">
                 <img src="assets/logo.png" width="434" />
             </a>
-            <h1>{name} - {details.style} ({details.status})</h1>
-            <p>Brew date - {details.brewDate}</p>
-            <p>Bottle date - {details.bottleDate}</p>
+            <h1>{name} - <span>{details.style}</span> </h1>
+            <TableContainer component={Paper}>
+                <Table aria-label="simple table">
+                    <TableBody>
+                        <TableRow>
+                            <TableCell>Status</TableCell>
+                            <TableCell style={statusStyle}>{details.brewStatus}</TableCell>
+                        </TableRow>
+                        {this.dataPairs().map(row => (
+                        <TableRow key={row.name}>
+                            <TableCell component="th" scope="row">
+                                {row.name}
+                            </TableCell>
+                            <TableCell >{row.value}</TableCell>
+                        </TableRow>
+                        )) }
+
+                    </TableBody>
+                </Table>
+                
+            </TableContainer>
+            
             
             {this.reactBody()}
 
         </Container>
+    }
+
+    statusColor(status: BrewStatus) {
+        console.log(status)
+        switch (status) {
+            case BrewStatus.planned: 
+                return "#95a5a6"
+            case BrewStatus.fermenting: 
+                return "#2980b9"
+            case BrewStatus.bottled: 
+                return "#2ecc71"
+            case BrewStatus.finished: 
+                return "#e74c3c"
+        }
+    }
+
+    dataPairs(): DetailItem[] {
+        let details = this.state.details
+        if (!details) {
+            return []
+        }
+        let output: DetailItem[] = []
+        
+
+        this.optional("Brew Date", output, details.brewDate)
+        this.optional("Bottle Date", output, details.bottleDate);
+        this.optional("Dry Hop Date", output, details.dryHopDate);
+        this.optional("Yeast", output, details.yeast);
+
+        this.optional("Original Gravity", output, details.originalGravity)
+        this.optional("Final Gravity", output, details.finalGravity)
+
+        this.optional("Original Brix", output, details.originalBrix)
+        this.optional("Final Brix", output, details.finalBrix)
+
+        if (details.alcoholPct) {
+            output.push({name: "ABV", value: `${details.alcoholPct}%`});
+        }
+
+        this.optional("Caps", output, details.caps)
+
+        return output;
+    }
+
+    optional(name: string, array: DetailItem[], optValue?: any) {
+        if (optValue) {
+            let item = {name, value: `${optValue}`}
+            array.push(item);
+        }
     }
 
     reactBody() {
@@ -70,4 +146,6 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
         this.getJSONData();
         this.getMDData();
     }
+
+
 }

@@ -9,7 +9,7 @@
   "brewDate" : "2018-10-07",
   "number" : 32,
   "originalBrix" : 15.2,
-  "dry-hop-date" : "2018-12-04",
+  "originalGravity" : 1.063,
   "finalGravity" : 1.015,
-  "originalGravity" : 1.063
+  "dryHopDate" : "2018-12-04"
 }

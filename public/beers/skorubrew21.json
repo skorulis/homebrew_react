@@ -1,5 +1,5 @@
 {
-  "dry-hop-date" : "2017-04-14",
+  "finalGravity" : 1.014,
   "style" : "Belgian pale ale",
   "alcoholPct" : 5.5,
   "yeast" : "Safale T-58",
@@ -12,5 +12,5 @@
   "originalBrix" : 13.5,
   "originalGravity" : 1.055,
   "total-bottles" : "11",
-  "finalGravity" : 1.014
+  "dryHopDate" : "2017-04-14"
 }

@@ -5,7 +5,14 @@ export default interface BeerDetail {
     style: string
     brewDate: string
     bottleDate: string
-    finalGravity: number
+    dryHopDate: string
+    finalGravity?: number
+    originalGravity?: number
+    originalBrix?: number
+    finalBrix?: number
     rating?: number
-    status?: BrewStatus
+    alcoholPct?: number
+    brewStatus: BrewStatus
+    yeast?: string
+    caps?: string
 }

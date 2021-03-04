@@ -15,8 +15,5 @@ let package = Package(
         .target(
             name: "homebrew",
             dependencies: []),
-        .testTarget(
-            name: "homebrewTests",
-            dependencies: ["homebrew"]),
     ]
 )

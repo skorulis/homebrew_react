@@ -1,5 +1,5 @@
 {
-  "total-bottles" : "10",
+  "finalGravity" : 1.023,
   "style" : "Smoked Red ale",
   "mash-temp" : "68",
   "alcoholPct" : 5.9,
@@ -11,7 +11,7 @@
   "number" : 34,
   "originalBrix" : 16.5,
   "caps" : "Red caps with black smudge",
-  "dry-hop-date" : "2019-05-26",
-  "finalGravity" : 1.023,
-  "originalGravity" : 1.067
+  "originalGravity" : 1.067,
+  "total-bottles" : "10",
+  "dryHopDate" : "2019-05-26"
 }

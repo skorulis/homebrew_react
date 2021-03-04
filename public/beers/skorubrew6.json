@@ -1,9 +1,9 @@
 {
   "number" : 6,
-  "bottleDate" : "2016-05-23",
   "style" : "IPA",
-  "brewStatus" : "Finished",
   "total-bottles" : "10.5",
+  "brewStatus" : "Finished",
+  "bottleDate" : "2016-05-23",
   "rating" : 7,
   "brewDate" : "2016-05-07",
   "finalGravity" : 1.015,
