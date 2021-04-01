@@ -1,6 +1,7 @@
 
 import { Container, Paper} from '@material-ui/core';
 import BeerSummary from "../model/BeerSummary";
+import styled from 'styled-components';
 import React from 'react';
 import {
     Link
@@ -25,7 +26,7 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
             }
 
 
-            return <li key={x.number}>
+            return <BeerList key={x.number}>
                 
                 <Link to={`/${x.number}`}>
                     <Paper elevation={3}>
@@ -37,7 +38,7 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
                 
                 </Link>
                 
-            </li>
+            </BeerList>
         })
         return <Container>
             <a href="/">
@@ -62,3 +63,7 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
         this.getJSONData();
     }
 }
+
+const BeerList = styled.li`
+    list-style-type: none;
+`;

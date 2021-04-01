@@ -5,6 +5,7 @@
   "style" : "American Brown",
   "brewStatus" : "Ferementing",
   "brewDate" : "2021-03-20",
+  "dryHopDate":"2021-04-01",
   "number" : 43,
   "originalBrix" : 12.5,
   "originalGravity" : 1.050
