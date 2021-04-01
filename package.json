@@ -1,7 +1,7 @@
 {
   "name": "homebrew",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://skorulis.github.io/homebrew_react",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.57",
@@ -19,6 +19,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
