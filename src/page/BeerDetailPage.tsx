@@ -3,7 +3,7 @@ import { Container, TableContainer, Paper, Table, TableHead, TableRow, TableCell
 import React from 'react';
 import ReactMarkdown from 'react-markdown'
 import BeerDetail from '../model/BeerDetail'
-import { BrewStatus } from '../model/Common';
+import { BrewStatus, BrewStatusUtil } from '../model/Common';
 
 interface DetailItem {
     name: string
@@ -60,17 +60,7 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
     }
 
     statusColor(status: BrewStatus) {
-        console.log(status)
-        switch (status) {
-            case BrewStatus.planned: 
-                return "#95a5a6"
-            case BrewStatus.fermenting: 
-                return "#2980b9"
-            case BrewStatus.bottled: 
-                return "#2ecc71"
-            case BrewStatus.finished: 
-                return "#e74c3c"
-        }
+        return BrewStatusUtil.color(status)
     }
 
     dataPairs(): DetailItem[] {

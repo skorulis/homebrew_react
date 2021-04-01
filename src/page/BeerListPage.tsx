@@ -3,6 +3,7 @@ import { Container, Paper} from '@material-ui/core';
 import BeerSummary from "../model/BeerSummary";
 import styled from 'styled-components';
 import React from 'react';
+import { BrewStatusUtil } from '../model/Common';
 import {
     Link
   } from "react-router-dom";
@@ -14,27 +15,41 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
         this.state = {beers: []}
     }
 
+    dateLabel(item: BeerSummary): string | undefined {
+        var pieces: string[] = []
+        if (item.brewDate) {
+            pieces.push(`Brewed on ${item.brewDate}`)
+        }
+        if (item.bottleDate) {
+            pieces.push(`bottled on ${item.bottleDate}`)
+        }
+        if (pieces.length == 0) {
+            return undefined;
+        }
+        return pieces.join(" and ")
+    }
+
+    statusColor(item: BeerSummary): string {
+        if (!item.status) {
+            return "#7f8c8d"
+        }
+        return BrewStatusUtil.color(item.status)
+    }
+
     render() {
         let items = this.state.beers.map(x => {
-            let brewDateItem = undefined
-            if (x.brewDate) {
-                brewDateItem = <p>Brewed on {x.brewDate}</p>
+            let dateItem = undefined
+            if (this.dateLabel(x)) {
+                dateItem = <p>{this.dateLabel(x)}</p>
             }
-            let bottleDateItem = undefined
-            if (x.bottleDate) {
-                bottleDateItem = <p>Bottled on {x.bottleDate}</p>
-            }
-
 
             return <BeerList key={x.number}>
                 
                 <Link to={`/${x.number}`}>
-                    <Paper elevation={3}>
-                    {brewDateItem}
-                    {bottleDateItem}
-                    Skorubrew #{x.number} {x.style} 
-                    <br/>{x.status}
-                    </Paper>
+                    <BeerContainer elevation={1}>
+                    <h2>Skorubrew #{x.number} {x.style} <StatusSpan style={{color:this.statusColor(x)}}>{x.status}</StatusSpan></h2>
+                    {dateItem}
+                    </BeerContainer>
                 
                 </Link>
                 
@@ -66,4 +81,13 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
 
 const BeerList = styled.li`
     list-style-type: none;
+`;
+
+const BeerContainer = styled(Paper)`
+    padding: 5px 20px;
+    margin: 10px 0px;
+`;
+
+const StatusSpan = styled.span`
+    font-size:16px
 `;
