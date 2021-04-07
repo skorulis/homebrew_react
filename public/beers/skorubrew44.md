@@ -7,4 +7,7 @@ The  wort itself smelled more salty than it normally would, not sure how long th
 
 The amount of sugars in the wort was much lower than normal for my beers so I expect this one to be pretty weak.
 
+This turned out worse than expected. After 2 weeks it had only partially fermented and smelled like prune juice. The alcohol percentage was only 1%. I took the whole thing and poured it down the sink.
+
 ![Ingredients](assets/ingredients-44.jpeg)
+

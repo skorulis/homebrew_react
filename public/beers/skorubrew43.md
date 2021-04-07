@@ -18,6 +18,7 @@ Hop Schedule
 -------------
 
 * 4g Galaxy @ 30 minutes
+* 5g East kent goldings dry hop
 
 
 Notes

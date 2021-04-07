@@ -4,9 +4,10 @@
   "yeast" : "Mangrove jack M15",
   "yeastLink": "https://mangrovejacks.com/collections/craft-series-yeasts/products/m15-empire-ale-yeast-10-g",
   "style" : "Dopplebock brown",
-  "brewStatus" : "Fermenting",
+  "brewStatus" : "Finished",
   "brewDate" : "2021-03-20",
   "originalGravity": 1.035,
   "originalBrix": 9
+  "finalBrix": 8
   
 }
