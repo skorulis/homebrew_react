@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/homebrew_react/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/homebrew_react/static/js/main.d8888ba3.chunk.js",
+    "main.js.map": "/homebrew_react/static/js/main.d8888ba3.chunk.js.map",
+    "runtime-main.js": "/homebrew_react/static/js/runtime-main.e24b1918.js",
+    "runtime-main.js.map": "/homebrew_react/static/js/runtime-main.e24b1918.js.map",
+    "static/js/2.8709abf7.chunk.js": "/homebrew_react/static/js/2.8709abf7.chunk.js",
+    "static/js/2.8709abf7.chunk.js.map": "/homebrew_react/static/js/2.8709abf7.chunk.js.map",
+    "static/js/3.8318e478.chunk.js": "/homebrew_react/static/js/3.8318e478.chunk.js",
+    "static/js/3.8318e478.chunk.js.map": "/homebrew_react/static/js/3.8318e478.chunk.js.map",
+    "index.html": "/homebrew_react/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/homebrew_react/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.8709abf7.chunk.js.LICENSE.txt": "/homebrew_react/static/js/2.8709abf7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e24b1918.js",
+    "static/js/2.8709abf7.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.d8888ba3.chunk.js"
+  ]
+}

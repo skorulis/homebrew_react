@@ -1,0 +1,17 @@
+{
+  "finalGravity" : 1.02,
+  "mash-temp" : "68",
+  "style" : "Dunkelweizen",
+  "alcoholPct" : 5.6,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 9,
+  "bottleDate" : "2019-04-16",
+  "brewDate" : "2019-03-10",
+  "number" : 33,
+  "originalBrix" : 15.4,
+  "caps" : "black with red",
+  "originalGravity" : 1.064,
+  "total-bottles" : "10",
+  "dryHopDate" : "2019-04-14"
+}

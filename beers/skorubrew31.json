@@ -1,0 +1,16 @@
+{
+  "finalGravity" : 1.026,
+  "style" : "NEIPA",
+  "mash-temp" : "68",
+  "alcoholPct" : 5.8,
+  "yeast" : "US-05",
+  "brewStatus" : "Finished",
+  "finalBrix" : 10.5,
+  "bottleDate" : "2018-08-18",
+  "brewDate" : "2018-06-17",
+  "number" : 31,
+  "originalBrix" : 17,
+  "originalGravity" : 1.07,
+  "total-bottles" : "11",
+  "dryHopDate" : "2018-07-18"
+}

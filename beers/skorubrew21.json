@@ -1,0 +1,16 @@
+{
+  "finalGravity" : 1.014,
+  "style" : "Belgian pale ale",
+  "alcoholPct" : 5.5,
+  "yeast" : "Safale T-58",
+  "yeastTemp" : 22,
+  "brewStatus" : "Finished",
+  "finalBrix" : 7.2,
+  "bottleDate" : "2017-05-10",
+  "brewDate" : "2017-03-19",
+  "number" : 21,
+  "originalBrix" : 13.5,
+  "originalGravity" : 1.055,
+  "total-bottles" : "11",
+  "dryHopDate" : "2017-04-14"
+}

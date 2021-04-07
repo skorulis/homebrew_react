@@ -1,0 +1,13 @@
+{
+  "number" : 30,
+  "style" : "Chocolate Milk Stout",
+  "bottleDate" : "2018-03-24",
+  "brewStatus" : "Ready",
+  "yeast" : "US-05",
+  "originalBrix" : 19,
+  "brewDate" : "2018-05-23",
+  "originalGravity" : 1.08,
+  "finalBrix" : 11,
+  "alcoholPct" : 7.1,
+  "yeastTemp" : 20
+}

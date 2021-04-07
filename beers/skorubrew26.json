@@ -1,0 +1,17 @@
+{
+  "dryHopDate" : "2017-11-23",
+  "style" : "Rice ale",
+  "mash-temp" : "69",
+  "alcoholPct" : 4.7,
+  "yeast" : "US-05",
+  "yeastTemp" : 18,
+  "finalBrix" : 8,
+  "brewStatus" : "Finished",
+  "bottleDate" : "2017-12-05",
+  "brewDate" : "2017-08-24",
+  "number" : 26,
+  "originalBrix" : 12,
+  "originalGravity" : 1.048,
+  "total-bottles" : "12",
+  "finalGravity" : 1.018
+}

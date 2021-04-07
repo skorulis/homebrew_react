@@ -1,0 +1,16 @@
+{
+  "rating" : 7.5,
+  "style" : "Belgian Apple Ale",
+  "alcoholPct" : 7.2,
+  "yeast" : "Mangrove jacks M27",
+  "yeastTemp" : 27,
+  "brewStatus" : "Finished",
+  "finalBrix" : 6.8,
+  "bottleDate" : "2016-11-30",
+  "bottles" : 11,
+  "brewDate" : "2016-11-18",
+  "number" : 14,
+  "originalBrix" : 15.5,
+  "originalGravity" : 1.063,
+  "finalGravity" : 1.011
+}

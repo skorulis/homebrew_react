@@ -1,0 +1,15 @@
+{
+  "missing-glass-photo" : "1",
+  "style" : "Raspberry Cider",
+  "alcoholPct" : 6,
+  "yeast" : "Mangrove jack's M05",
+  "brewStatus" : "Finished",
+  "finalBrix" : 5,
+  "bottleDate" : "2017-03-25",
+  "brewDate" : "2017-02-26",
+  "number" : 22,
+  "originalBrix" : 13,
+  "originalGravity" : 1.053,
+  "finalGravity" : 1.007,
+  "dryHopDate" : "2017-03-19"
+}

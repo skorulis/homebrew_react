@@ -1,0 +1,17 @@
+{
+  "rating" : 6,
+  "style" : "Wheat ale",
+  "finalGravity" : 1.01,
+  "alcoholPct" : 3.7,
+  "yeast" : "Mangrove jack's M05",
+  "yeastTemp" : 27,
+  "brewStatus" : "Finished",
+  "finalBrix" : 5,
+  "bottleDate" : "2017-01-25",
+  "brewDate" : "2017-01-09",
+  "number" : 18,
+  "originalBrix" : 9,
+  "originalGravity" : 1.038,
+  "total-bottles" : "12",
+  "dryHopDate" : "2017-01-20"
+}

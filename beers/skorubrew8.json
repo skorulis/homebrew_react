@@ -1,0 +1,13 @@
+{
+  "number" : 8,
+  "bottleDate" : "2016-06-15",
+  "brewStatus" : "Ready",
+  "rating" : 7.5,
+  "style" : "Chocolate milk stout",
+  "originalBrix" : 16.2,
+  "brewDate" : "2016-05-29",
+  "finalGravity" : 1.026,
+  "originalGravity" : 1.068,
+  "alcoholPct" : 5.6,
+  "yeastTemp" : 18
+}

@@ -1,0 +1,17 @@
+{
+  "finalGravity" : 1.015,
+  "style" : "Pale ale",
+  "mash-temp" : "69",
+  "alcoholPct" : 5.7,
+  "yeast" : "US-05",
+  "yeastTemp" : 19,
+  "finalBrix" : 7.5,
+  "brewStatus" : "Finished",
+  "bottleDate" : "2017-10-31",
+  "brewDate" : "2017-08-19",
+  "number" : 25,
+  "originalBrix" : 14,
+  "originalGravity" : 1.057,
+  "total-bottles" : "12",
+  "dryHopDate" : "2017-10-11"
+}

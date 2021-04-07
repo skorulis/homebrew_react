@@ -1,0 +1,16 @@
+{
+  "style" : "SMaSH pale ale",
+  "mash-temp" : "68",
+  "alcoholPct" : 4.63,
+  "yeast" : "US-05",
+  "yeastTemp" : 18,
+  "brewStatus" : "Finished",
+  "finalBrix" : 6.5,
+  "bottleDate" : "2018-05-15",
+  "brewDate" : "2018-04-22",
+  "number" : 29,
+  "originalBrix" : 11.8,
+  "originalGravity" : 1.046,
+  "finalGravity" : 1.013,
+  "dryHopDate" : "2018-05-11"
+}

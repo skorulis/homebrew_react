@@ -1,0 +1,16 @@
+{
+  "rating" : 4,
+  "style" : "Coconut porter",
+  "alcoholPct" : 7.1,
+  "yeast" : "Mangrove jacks M27",
+  "yeastTemp" : 30,
+  "brewStatus" : "Finished",
+  "finalBrix" : 12,
+  "bottleDate" : "2016-12-12",
+  "bottles" : 12,
+  "brewDate" : "2016-11-19",
+  "number" : 15,
+  "originalBrix" : 19.5,
+  "originalGravity" : 1.081,
+  "finalGravity" : 1.031
+}

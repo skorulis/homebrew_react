@@ -1,0 +1,16 @@
+{
+  "dryHopDate" : "2021-03-12",
+  "bottleDate" : "2021-03-16",
+  "mash-temp" : "70",
+  "style" : "IPA",
+  "yeast" : "Mangrove jack 12",
+  "brewStatus" : "Bottled",
+  "brewDate" : "2021-02-13",
+  "number" : 41,
+  "originalBrix" : 16,
+  "originalGravity" : 1.068,
+  "finalBrix":9,
+  "finalGravity":1.019,
+  "alcoholPct": 6.2,
+  "caps":"Green"
+}

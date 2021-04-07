@@ -1,0 +1,17 @@
+{
+  "finalGravity" : 1.023,
+  "style" : "Smoked Red ale",
+  "mash-temp" : "68",
+  "alcoholPct" : 5.9,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 9.8,
+  "bottleDate" : "2019-05-29",
+  "brewDate" : "2019-04-21",
+  "number" : 34,
+  "originalBrix" : 16.5,
+  "caps" : "Red caps with black smudge",
+  "originalGravity" : 1.067,
+  "total-bottles" : "10",
+  "dryHopDate" : "2019-05-26"
+}

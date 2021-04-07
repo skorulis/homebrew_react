@@ -1,0 +1,14 @@
+{
+  "rating" : 7,
+  "style" : "Pale ale",
+  "water-temp" : "25",
+  "alcoholPct" : 4.6,
+  "yeastTemp" : 25,
+  "brewStatus" : "Finished",
+  "bottleDate" : "2016-04-10",
+  "brewDate" : "2016-03-12",
+  "number" : 3,
+  "ambient-temp" : "29",
+  "originalGravity" : 1053,
+  "finalGravity" : 1018
+}

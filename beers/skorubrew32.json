@@ -1,0 +1,15 @@
+{
+  "mash-temp" : "68",
+  "style" : "Pale ale",
+  "alcoholPct" : 6.29,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 8,
+  "bottleDate" : "2018-12-09",
+  "brewDate" : "2018-10-07",
+  "number" : 32,
+  "originalBrix" : 15.2,
+  "originalGravity" : 1.063,
+  "finalGravity" : 1.015,
+  "dryHopDate" : "2018-12-04"
+}

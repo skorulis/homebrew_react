@@ -1,0 +1,16 @@
+{
+  "style" : "Brown ale",
+  "mash-temp" : "68",
+  "alcoholPct" : 5.7,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 6.2,
+  "bottleDate" : "2019-10-01",
+  "brewDate" : "2019-06-10",
+  "number" : 37,
+  "originalBrix" : 12.8,
+  "caps" : "Gold with red",
+  "originalGravity" : 1.051,
+  "finalGravity" : 1.009,
+  "dryHopDate" : "2019-07-28"
+}

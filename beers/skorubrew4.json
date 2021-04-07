@@ -1,0 +1,13 @@
+{
+  "rating" : 6,
+  "alcohol-level" : "5.4",
+  "style" : "Stout",
+  "total-bottles" : "12",
+  "bottleDate" : "2016-04-22",
+  "ambient-temp" : "28",
+  "brewDate" : "2016-04-11",
+  "number" : 4,
+  "originalGravity" : 1.017,
+  "brewStatus" : "Finished",
+  "yeastTemp" : 16
+}

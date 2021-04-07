@@ -1,0 +1,13 @@
+{
+  "number" : 9,
+  "bottleDate" : "2016-07-04",
+  "brewStatus" : "Finished",
+  "originalBrix" : 13,
+  "style" : "Pale ale",
+  "rating" : 6.5,
+  "brewDate" : "2016-05-29",
+  "finalGravity" : 1.018,
+  "originalGravity" : 1.052,
+  "alcoholPct" : 4.5,
+  "yeastTemp" : 22
+}

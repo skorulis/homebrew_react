@@ -1,0 +1,16 @@
+{
+  "style" : "Rice ale",
+  "mash-temp" : "68",
+  "alcoholPct" : 4.4,
+  "yeast" : "US-05",
+  "brewStatus" : "Ready",
+  "finalBrix" : 6,
+  "bottleDate" : "2019-06-24",
+  "brewDate" : "2019-06-02",
+  "number" : 36,
+  "originalBrix" : 11,
+  "caps" : "White with blue",
+  "originalGravity" : 1.044,
+  "finalGravity" : 1.012,
+  "dryHopDate" : "2019-06-23"
+}

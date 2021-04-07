@@ -1,0 +1,17 @@
+{
+  "rating" : 6,
+  "style" : "Saison",
+  "total-bottles" : "11",
+  "alcoholPct" : 6.4,
+  "yeast" : "Mangrove jacks M29",
+  "yeastTemp" : 18,
+  "brewStatus" : "Finished",
+  "finalBrix" : 7,
+  "bottleDate" : "2017-01-09",
+  "brewDate" : "2016-12-17",
+  "number" : 16,
+  "originalBrix" : 14.2,
+  "originalGravity" : 1.058,
+  "finalGravity" : 1.009,
+  "dryHopDate" : "2016-12-31"
+}

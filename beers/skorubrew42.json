@@ -1,0 +1,18 @@
+{
+  "mashTemp" : "70",
+  "yeastTemp":26,
+  "style" : "IPA",
+  "yeast" : "Mangrove jack M15",
+  "yeastLink": "https://mangrovejacks.com/collections/craft-series-yeasts/products/m15-empire-ale-yeast-10-g",
+  "brewStatus" : "Bottled",
+  "brewDate" : "2021-03-12",
+  "dryHopDate":"2021-03-20",
+  "bottleDate":"2021-03-23",
+  "number" : 42,
+  "originalBrix" : 14,
+  "originalGravity" : 1.055,
+  "finalBrix": 9.3,
+  "finalGravity":1.025,
+  "alcoholPct": 4.2,
+  "caps":"Black"
+}
