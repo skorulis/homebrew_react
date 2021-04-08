@@ -9,7 +9,7 @@
   "bottleDate":"2021-04-03",
   "number" : 43,
   "originalBrix" : 12.5,
-  "originalGravity" : 1.050
+  "originalGravity" : 1.050,
   "finalBrix": 9.2,
   "finalGravity":1.028,
   "alcoholPct": 3.0,
