@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import BeerListPage from "./page/BeerListPage"
 import BeerDetailPage from "./page/BeerDetailPage"
+import NavBar from "./component/NavBar"
 
 import {
   BrowserRouter as Router,
@@ -13,13 +14,17 @@ import {
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/:number" exact={true} component={BeerDetailPage} />
-        <Route path="/" exact={true} component={BeerListPage} />
-      </Switch>
+    <div>
+      <NavBar />
+      <Router>
+        <Switch>
+          <Route path="/:number" exact={true} component={BeerDetailPage} />
+          <Route path="/" exact={true} component={BeerListPage} />
+        </Switch>
       
-    </Router>
+      </Router>
+    </div>
+    
     
   );
 }

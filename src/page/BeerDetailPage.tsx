@@ -20,7 +20,7 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
     render() {
         let details = this.state.details
         if (!details) {
-            return <p>Loading</p>
+            return this.loadingState()
         }
 
         let name = `Skorubrew #${details.number}`
@@ -28,9 +28,6 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
         let statusStyle = {color:this.statusColor(details.brewStatus), fontSize: "150%"}
 
         return <Container>
-            <a href="/">
-                <img src="assets/logo.png" width="434" />
-            </a>
             <h1>{name} - <span>{details.style}</span> </h1>
             <TableContainer component={Paper}>
                 <Table aria-label="simple table">
@@ -57,6 +54,10 @@ export default class BeerDetailPage extends React.Component<any, {details?: Beer
             {this.reactBody()}
 
         </Container>
+    }
+
+    loadingState() {
+        return <p>Loading beer information</p>;
     }
 
     statusColor(status: BrewStatus) {

@@ -4,6 +4,7 @@ import BeerSummary from "../model/BeerSummary";
 import styled from 'styled-components';
 import React from 'react';
 import { BrewStatusUtil } from '../model/Common';
+import NavBar from "../component/NavBar"
 import {
     Link
   } from "react-router-dom";
@@ -56,9 +57,6 @@ export default class BeerListPage extends React.Component<{}, {beers: BeerSummar
             </BeerList>
         })
         return <Container>
-            <a href="/">
-                <img src="assets/logo.png" width="434" />
-            </a>
             
             <ul>
                 {items}

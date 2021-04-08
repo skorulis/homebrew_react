@@ -4,8 +4,9 @@ const beerFolder = './public/beers/';
 
 function makeBeerItem(filename) {
     let fullPath = beerFolder + filename
+    console.log(`Processing: ${filename}`)
     let data = JSON.parse( fs.readFileSync(fullPath));
-    console.log(data);
+    
 
     return {
         number: data.number,
