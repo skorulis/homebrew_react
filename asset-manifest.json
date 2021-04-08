@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/homebrew_react/static/css/main.ea1455b2.chunk.css",
-    "main.js": "/homebrew_react/static/js/main.118c04d0.chunk.js",
-    "main.js.map": "/homebrew_react/static/js/main.118c04d0.chunk.js.map",
+    "main.js": "/homebrew_react/static/js/main.f7d7ceb1.chunk.js",
+    "main.js.map": "/homebrew_react/static/js/main.f7d7ceb1.chunk.js.map",
     "runtime-main.js": "/homebrew_react/static/js/runtime-main.e24b1918.js",
     "runtime-main.js.map": "/homebrew_react/static/js/runtime-main.e24b1918.js.map",
     "static/js/2.1e03863b.chunk.js": "/homebrew_react/static/js/2.1e03863b.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e24b1918.js",
     "static/js/2.1e03863b.chunk.js",
     "static/css/main.ea1455b2.chunk.css",
-    "static/js/main.118c04d0.chunk.js"
+    "static/js/main.f7d7ceb1.chunk.js"
   ]
 }
